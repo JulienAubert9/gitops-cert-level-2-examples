@@ -22,3 +22,9 @@ spec:
     syncOptions:
       - CreateNamespace=true  
    
+  ignoreDifferences:
+  - group: "*"
+    kind: "*"
+    managedFieldsManagers:
+    - my-password
+    - creation
